@@ -17,7 +17,7 @@ function check_quess  {
 
 if [[ $response -eq $num ]]
 then
-  echo "Congrats!! you've guessed it right"
+  echo "Congrats!! you've guessed it right."
 else
   while true #[[ $response -ne $num ]]
   do
@@ -25,7 +25,7 @@ else
     then 
       check_quess
     else 
-      echo "You've guessed it tight:)"
+      echo "Congrats!! you've guessed it right."
       break
     fi
  
